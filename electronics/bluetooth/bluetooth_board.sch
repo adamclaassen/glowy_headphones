@@ -1,0 +1,211 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SparkFun
+LIBS:bluetooth_board-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "17 nov 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BLUETOOTH-RN52 U?
+U 1 1 5469548A
+P 6000 3950
+F 0 "U?" H 6000 5300 50  0000 C CNN
+F 1 "BLUETOOTH-RN52" H 5950 2500 50  0000 C CNN
+F 2 "" H 6000 3950 60  0000 C CNN
+F 3 "" H 6000 3950 60  0000 C CNN
+	1    6000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GS2 R_SPK
+U 1 1 5469773C
+P 7850 4300
+F 0 "R_SPK" H 7950 4450 50  0000 C CNN
+F 1 "GS2" H 7950 4151 40  0000 C CNN
+F 2 "~" H 7850 4300 60  0000 C CNN
+F 3 "~" H 7850 4300 60  0000 C CNN
+	1    7850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GS2 L-SPK
+U 1 1 5469775C
+P 7850 4850
+F 0 "L-SPK" H 7950 5000 50  0000 C CNN
+F 1 "GS2" H 7950 4701 40  0000 C CNN
+F 2 "~" H 7850 4850 60  0000 C CNN
+F 3 "~" H 7850 4850 60  0000 C CNN
+	1    7850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GS2 L_MIC
+U 1 1 54697768
+P 7850 2950
+F 0 "L_MIC" H 7950 3100 50  0000 C CNN
+F 1 "GS2" H 7950 2801 40  0000 C CNN
+F 2 "~" H 7850 2950 60  0000 C CNN
+F 3 "~" H 7850 2950 60  0000 C CNN
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GS2 R_MIC
+U 1 1 54697776
+P 7850 3500
+F 0 "R_MIC" H 7950 3650 50  0000 C CNN
+F 1 "GS2" H 7950 3351 40  0000 C CNN
+F 2 "~" H 7850 3500 60  0000 C CNN
+F 3 "~" H 7850 3500 60  0000 C CNN
+	1    7850 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4150 7700 4150
+Wire Wire Line
+	7700 4150 7700 4100
+Wire Wire Line
+	7700 4100 7850 4100
+Wire Wire Line
+	6800 4250 7550 4250
+Wire Wire Line
+	7550 4250 7550 4650
+Wire Wire Line
+	7550 4650 7850 4650
+Wire Wire Line
+	6800 4350 7750 4350
+Wire Wire Line
+	7750 4350 7750 4500
+Wire Wire Line
+	7750 4500 7850 4500
+Wire Wire Line
+	6800 4450 7700 4450
+Wire Wire Line
+	7700 4450 7700 5050
+Wire Wire Line
+	7700 5050 7850 5050
+Wire Wire Line
+	6800 3650 7500 3650
+Wire Wire Line
+	7500 3650 7500 3150
+Wire Wire Line
+	7500 3150 7850 3150
+Wire Wire Line
+	6800 3750 7850 3750
+Wire Wire Line
+	7850 3750 7850 3700
+Wire Wire Line
+	6800 3850 7300 3850
+Wire Wire Line
+	7300 3850 7300 2750
+Wire Wire Line
+	7300 2750 7850 2750
+Wire Wire Line
+	6800 3950 7650 3950
+Wire Wire Line
+	7650 3950 7650 3300
+Wire Wire Line
+	7650 3300 7850 3300
+Wire Wire Line
+	6800 4550 6900 4550
+Wire Wire Line
+	6900 2600 6900 5150
+Wire Wire Line
+	6900 4650 6800 4650
+Wire Wire Line
+	6900 4750 6800 4750
+Connection ~ 6900 4650
+Wire Wire Line
+	6900 4850 6800 4850
+Connection ~ 6900 4750
+Wire Wire Line
+	6900 4950 6800 4950
+Connection ~ 6900 4850
+Wire Wire Line
+	6900 5050 6800 5050
+Connection ~ 6900 4950
+Wire Wire Line
+	6900 5150 6800 5150
+Connection ~ 6900 5050
+Wire Wire Line
+	6800 2850 6900 2850
+Connection ~ 6900 4550
+Wire Wire Line
+	5200 2750 5100 2750
+Wire Wire Line
+	5100 2600 5100 4450
+Wire Wire Line
+	5100 4450 5200 4450
+Wire Wire Line
+	5100 2600 6900 2600
+Connection ~ 6900 2850
+Connection ~ 5100 2750
+$Comp
+L USB-MICROB J?
+U 1 1 546979E6
+P 4550 4050
+F 0 "J?" H 4650 4450 50  0000 C CNN
+F 1 "USB-MICROB" H 4650 3950 50  0000 C CNN
+F 2 "SparkFun-USB-MICROB" H 4650 3850 50  0001 C CNN
+F 3 "~" H 4550 4050 60  0000 C CNN
+	1    4550 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3750 4950 3750
+Wire Wire Line
+	4950 3750 4950 3950
+Wire Wire Line
+	4950 3950 5200 3950
+Wire Wire Line
+	4650 3850 5200 3850
+Wire Wire Line
+	4650 4050 5100 4050
+Connection ~ 5100 4050
+Wire Wire Line
+	4650 3950 4900 3950
+Wire Wire Line
+	4900 3950 4900 4750
+Wire Wire Line
+	4900 4750 5200 4750
+$EndSCHEMATC

@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3  Date: Mon 17 Nov 2014 01:17:00 PM EST
+#encoding utf-8
+#
+# SPK
+#
+DEF SPK P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "SPK" 50 0 40 V V C CNN
+F2 "~" 0 0 60 H V C CNN
+F3 "~" 0 0 60 H V C CNN
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 + -350 100 250 R 60 60 1 1 P I
+X P2 - -350 -100 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+#End Library
